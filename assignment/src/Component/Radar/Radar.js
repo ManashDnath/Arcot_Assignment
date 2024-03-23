@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 
 import { Radar } from "react-chartjs-2";
 
-
-function Radars({name}) {
-    const platform={...name.usage_statistics.by_platform};
+function Radars({ name }) {
+  const platform = { ...name.usage_statistics.by_platform };
   return (
     <div>
-        <Radar
+      <Radar
         data={{
           labels: Object.keys(platform),
           datasets: [
@@ -19,7 +18,7 @@ function Radars({name}) {
         }}
       />
     </div>
-  )
+  );
 }
 
-export default Radars
+export default Radars;

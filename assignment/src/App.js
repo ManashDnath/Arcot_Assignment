@@ -15,7 +15,7 @@ function App() {
       <LineChart name={renderData} />
       <PieChart name={renderData} />
       <PolarAreas name={renderData} />
-      <Radars name={renderData} /> 
+      <Radars name={renderData} />
     </div>
   );
 }

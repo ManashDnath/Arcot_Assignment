@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import { Line } from "react-chartjs-2";
 
-function LineChart({name}) {
-    const datess = { ...name.response_times };
+function LineChart({ name }) {
+  const datess = { ...name.response_times };
   return (
     <div>
-        <Line
+      <Line
         data={{
           labels: datess.day_wise.map((e) => e.date),
           datasets: [
@@ -28,7 +28,7 @@ function LineChart({name}) {
         }}
       />
     </div>
-  )
+  );
 }
 
-export default LineChart
+export default LineChart;
