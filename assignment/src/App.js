@@ -6,7 +6,7 @@ import LineChart from "./Component/LineChart/LineChart";
 import PieChart from "./Component/PieChart/PieChart";
 import PolarAreas from "./Component/PolarArea/PolarArea";
 import Radars from "./Component/Radar/Radar";
-import { Chart as ChartJS } from "chart.js/auto";
+import { Chart } from "chart.js/auto";
 
 function App() {
   return (
