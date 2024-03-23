@@ -22,7 +22,6 @@
     "week_wise": [
     {"week": "18", "average_time": 0.45},
     {"week": "19", "average_time": 0.43},
-    
     {"week": "20", "average_time": 0.5},
     {"week": "21", "average_time": 0.46},
     {"week": "22", "average_time": 0.41}
